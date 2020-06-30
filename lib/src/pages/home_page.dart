@@ -74,9 +74,9 @@ class _HomePageState extends State<HomePage> {
 
    _scanear()async {
     //https://www.sport.es/es/
-     //geo:40.66175814219639,-74.2078150792969
+     // geo:40.66175814219639,-74.2078150792969
 
-     dynamic futureString ='';
+  /*    dynamic futureString ='';
 
      try {
        futureString = await BarcodeScanner.scan();
@@ -84,6 +84,10 @@ class _HomePageState extends State<HomePage> {
        futureString=e.toString();
      }
 
-     print('Future String: ${futureString.rawContent}');
+     print('Future String: ${futureString.rawContent}');*/
    }
+
+
+
+
 }
